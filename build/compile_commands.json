@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/22526/Documents/gitee/CMake_demo/build",
+  "command": "C:\\MinGW\\bin\\mingw32-g++.exe  @CMakeFiles/CMake_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\CMake_demo.dir\\CMake_demo.cpp.obj -c C:\\Users\\22526\\Documents\\gitee\\CMake_demo\\CMake_demo.cpp",
+  "file": "C:/Users/22526/Documents/gitee/CMake_demo/CMake_demo.cpp"
+}
+]
