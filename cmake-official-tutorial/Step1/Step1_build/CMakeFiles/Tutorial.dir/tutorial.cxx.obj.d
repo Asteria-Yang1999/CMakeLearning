@@ -1,5 +1,5 @@
 CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
- D:\Codes\C++\cmake-3.28.1-tutorial-source\cmake-3.28.1-tutorial-source\Step1\tutorial.cxx \
+ D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step1\tutorial.cxx \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

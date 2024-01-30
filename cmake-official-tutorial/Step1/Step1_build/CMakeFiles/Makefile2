@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Codes\C++\cmake-3.28.1-tutorial-source\cmake-3.28.1-tutorial-source\Step1
+CMAKE_SOURCE_DIR = D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Codes\C++\cmake-3.28.1-tutorial-source\cmake-3.28.1-tutorial-source\Step1\Step1_build
+CMAKE_BINARY_DIR = D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step1\Step1_build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/Tutorial.dir/clean
 CMakeFiles/Tutorial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tutorial.dir\build.make CMakeFiles/Tutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tutorial.dir\build.make CMakeFiles/Tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Codes\C++\cmake-3.28.1-tutorial-source\cmake-3.28.1-tutorial-source\Step1\Step1_build\CMakeFiles --progress-num=1,2 "Built target Tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step1\Step1_build\CMakeFiles --progress-num=1,2 "Built target Tutorial"
 .PHONY : CMakeFiles/Tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\C++\cmake-3.28.1-tutorial-source\cmake-3.28.1-tutorial-source\Step1\Step1_build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step1\Step1_build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Tutorial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\C++\cmake-3.28.1-tutorial-source\cmake-3.28.1-tutorial-source\Step1\Step1_build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step1\Step1_build\CMakeFiles 0
 .PHONY : CMakeFiles/Tutorial.dir/rule
 
 # Convenience name for target.

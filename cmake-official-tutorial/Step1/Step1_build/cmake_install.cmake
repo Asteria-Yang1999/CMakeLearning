@@ -1,4 +1,4 @@
-# Install script for directory: D:/Codes/C++/cmake-3.28.1-tutorial-source/cmake-3.28.1-tutorial-source/Step1
+# Install script for directory: D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Codes/C++/cmake-3.28.1-tutorial-source/cmake-3.28.1-tutorial-source/Step1/Step1_build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step1/Step1_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
