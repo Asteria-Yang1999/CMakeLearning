@@ -9,9 +9,6 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  c:\mingw\include\math.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\mingw\include\sdkddkver.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
- c:\mingw\include\stdlib.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
@@ -21,6 +18,7 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cwchar \
  c:\mingw\include\wchar.h c:\mingw\include\wctype.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\include\sys\types.h c:\mingw\include\stdio.h \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
@@ -79,6 +77,8 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\alloc_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\alloc_traits.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\string_conversions.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdlib \
+ c:\mingw\include\stdlib.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstdio \
  c:\mingw\include\stdio.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
@@ -101,4 +101,5 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step1/Step1_build/TutorialConfig.h

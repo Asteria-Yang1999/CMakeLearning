@@ -34,6 +34,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
+  "D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step1/TutorialConfig.h.in"
   )
 
 # The corresponding makefile is:
@@ -44,6 +45,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "TutorialConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
