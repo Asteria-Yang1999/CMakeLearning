@@ -129,6 +129,20 @@ MathFunctions/fast:
 	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
+# Convenience name for target.
+MathFunctions/CMakeFiles/SqrtLibrary.dir/rule:
+	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
+.PHONY : MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
+
+# Convenience name for target.
+SqrtLibrary: MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
+.PHONY : SqrtLibrary
+
+# fast build rule for target.
+SqrtLibrary/fast:
+	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\SqrtLibrary.dir\build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/build
+.PHONY : SqrtLibrary/fast
+
 MathFunctions.obj: MathFunctions.cxx.obj
 .PHONY : MathFunctions.obj
 
@@ -158,7 +172,7 @@ mysqrt.obj: mysqrt.cxx.obj
 
 # target to build an object file
 mysqrt.cxx.obj:
-	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj
+	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\SqrtLibrary.dir\build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.obj
 .PHONY : mysqrt.cxx.obj
 
 mysqrt.i: mysqrt.cxx.i
@@ -166,7 +180,7 @@ mysqrt.i: mysqrt.cxx.i
 
 # target to preprocess a source file
 mysqrt.cxx.i:
-	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\SqrtLibrary.dir\build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.i
 .PHONY : mysqrt.cxx.i
 
 mysqrt.s: mysqrt.cxx.s
@@ -174,7 +188,7 @@ mysqrt.s: mysqrt.cxx.s
 
 # target to generate assembly for a file
 mysqrt.cxx.s:
-	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\MathFunctions.dir\build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build && $(MAKE) $(MAKESILENT) -f MathFunctions\CMakeFiles\SqrtLibrary.dir\build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.s
 .PHONY : mysqrt.cxx.s
 
 # Help Target
@@ -186,6 +200,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... MathFunctions
+	@echo ... SqrtLibrary
 	@echo ... MathFunctions.obj
 	@echo ... MathFunctions.i
 	@echo ... MathFunctions.s

@@ -254,6 +254,9 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
+//Dependencies for the target
+MathFunctions_LIB_DEPENDS:STATIC=general;SqrtLibrary;
+
 //Value Computed by CMake
 Tutorial_BINARY_DIR:STATIC=D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step2/Step2_build
 
@@ -262,6 +265,9 @@ Tutorial_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Tutorial_SOURCE_DIR:STATIC=D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step2
+
+//variable for using different math implementation
+USE_MYMATH:BOOL=OFF
 
 
 ########################

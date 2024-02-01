@@ -82,33 +82,17 @@ MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s"
 	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\MathFunctions && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\MathFunctions\MathFunctions.cxx -o CMakeFiles\MathFunctions.dir\MathFunctions.cxx.s
 
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj: MathFunctions/CMakeFiles/MathFunctions.dir/flags.make
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj: D:/Codes/C++/CMakeLearning/cmake-official-tutorial/Step2/MathFunctions/mysqrt.cxx
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj: MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj"
-	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\MathFunctions && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj -MF CMakeFiles\MathFunctions.dir\mysqrt.cxx.obj.d -o CMakeFiles\MathFunctions.dir\mysqrt.cxx.obj -c D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\MathFunctions\mysqrt.cxx
-
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MathFunctions.dir/mysqrt.cxx.i"
-	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\MathFunctions && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\MathFunctions\mysqrt.cxx > CMakeFiles\MathFunctions.dir\mysqrt.cxx.i
-
-MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/mysqrt.cxx.s"
-	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\MathFunctions && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\MathFunctions\mysqrt.cxx -o CMakeFiles\MathFunctions.dir\mysqrt.cxx.s
-
 # Object files for target MathFunctions
 MathFunctions_OBJECTS = \
-"CMakeFiles/MathFunctions.dir/MathFunctions.cxx.obj" \
-"CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj"
+"CMakeFiles/MathFunctions.dir/MathFunctions.cxx.obj"
 
 # External object files for target MathFunctions
 MathFunctions_EXTERNAL_OBJECTS =
 
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.obj
-MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.obj
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/build.make
 MathFunctions/libMathFunctions.a: MathFunctions/CMakeFiles/MathFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libMathFunctions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMathFunctions.a"
 	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\MathFunctions && $(CMAKE_COMMAND) -P CMakeFiles\MathFunctions.dir\cmake_clean_target.cmake
 	cd /d D:\Codes\C++\CMakeLearning\cmake-official-tutorial\Step2\Step2_build\MathFunctions && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MathFunctions.dir\link.txt --verbose=$(VERBOSE)
 
